@@ -1,34 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>NSCameraPortraitEffectEnabled</key>
-	<false/>
-    <key>NSAppTransportSecurity</key>
     <dict>
-        <key>NSAllowsArbitraryLoads</key>
+        <key>NSCameraPortraitEffectEnabled</key>
+        <false/>
+        <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSExceptionDomains</key>
+            <dict>
+                <key>air.pc.cdn.bitgravity.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+                <key>25083.live.streamtheworld.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+                <key>stream.zeno.fm</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+                <key>18093.live.streamtheworld.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+                <key>eu10.fastcast4u.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+                <key>airhlspush.pc.cdn.bitgravity.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+                <key>uk2.internet-radio.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
         <true/>
     </dict>
-    <key>NSAllowsArbitraryLoadsInWebContent</key>
-    <true/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>air.pc.cdn.bitgravity.com</key>
-			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-			<key>51.15.208.163:8081</key>
-			<dict/>
-			<key>NSIncludesSubdomains</key>
-			<true/>
-			<key>NSExceptionAllowsInsecureHTTPLoads</key>
-			<true/>
-		</dict>
-	</dict>
-</dict>
 </plist>
