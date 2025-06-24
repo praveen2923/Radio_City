@@ -14,7 +14,8 @@ struct SplashView: View {
 
     var body: some View {
         if isActive {
-            RadioPlayerView() // Replace with your main view
+            MainTabbedView()
+                
         } else {
             ZStack {
                 Color.white

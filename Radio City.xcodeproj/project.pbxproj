@@ -11,6 +11,12 @@
 		4F8BFE502C4966B30056F215 /* Radio_CityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BFE4F2C4966B30056F215 /* Radio_CityApp.swift */; };
 		4F8BFE542C4966B50056F215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BFE532C4966B50056F215 /* Assets.xcassets */; };
 		4F8BFE572C4966B50056F215 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BFE562C4966B50056F215 /* Preview Assets.xcassets */; };
+		4F9259BA2E0AE376002140D4 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9259B92E0AE376002140D4 /* SideMenuView.swift */; };
+		4F9259BC2E0AEE40002140D4 /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9259BB2E0AEE40002140D4 /* MainTabbedView.swift */; };
+		4F9259BF2E0AEEFF002140D4 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9259BE2E0AEEFF002140D4 /* SideMenu.swift */; };
+		4F9259C12E0AEFFD002140D4 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9259C02E0AEFFC002140D4 /* FavoriteView.swift */; };
+		4F9259C42E0AF02C002140D4 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9259C32E0AF02C002140D4 /* ChatView.swift */; };
+		4F9259C62E0AF040002140D4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9259C52E0AF040002140D4 /* ProfileView.swift */; };
 		4FECBD5C2DFF3E400046C9E2 /* RadioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECBD5B2DFF3E400046C9E2 /* RadioPlayerView.swift */; };
 		4FECBD5F2DFF474C0046C9E2 /* ModernSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 4FECBD5E2DFF474C0046C9E2 /* ModernSlider */; };
 /* End PBXBuildFile section */
@@ -21,6 +27,12 @@
 		4F8BFE4F2C4966B30056F215 /* Radio_CityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_CityApp.swift; sourceTree = "<group>"; };
 		4F8BFE532C4966B50056F215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F8BFE562C4966B50056F215 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F9259B92E0AE376002140D4 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		4F9259BB2E0AEE40002140D4 /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		4F9259BE2E0AEEFF002140D4 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		4F9259C02E0AEFFC002140D4 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		4F9259C32E0AF02C002140D4 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		4F9259C52E0AF040002140D4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4FECBD5A2DFF3BE00046C9E2 /* Radio-City-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Radio-City-Info.plist"; sourceTree = SOURCE_ROOT; };
 		4FECBD5B2DFF3E400046C9E2 /* RadioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,12 +68,14 @@
 		4F8BFE4E2C4966B30056F215 /* Radio City */ = {
 			isa = PBXGroup;
 			children = (
+				4F9259C22E0AF00B002140D4 /* Views */,
+				4F9259BD2E0AEEE5002140D4 /* SideMenu */,
+				4F8BFE552C4966B50056F215 /* Preview Content */,
 				4FECBD5A2DFF3BE00046C9E2 /* Radio-City-Info.plist */,
 				4F8BFE4F2C4966B30056F215 /* Radio_CityApp.swift */,
-				4FECBD5B2DFF3E400046C9E2 /* RadioPlayerView.swift */,
 				4F8BFE532C4966B50056F215 /* Assets.xcassets */,
-				4F8BFE552C4966B50056F215 /* Preview Content */,
 				4F7E92892DFF52DF00B7889A /* SplashView.swift */,
+				4F9259BB2E0AEE40002140D4 /* MainTabbedView.swift */,
 			);
 			path = "Radio City";
 			sourceTree = "<group>";
@@ -72,6 +86,26 @@
 				4F8BFE562C4966B50056F215 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F9259BD2E0AEEE5002140D4 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4F9259B92E0AE376002140D4 /* SideMenuView.swift */,
+				4F9259BE2E0AEEFF002140D4 /* SideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		4F9259C22E0AF00B002140D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FECBD5B2DFF3E400046C9E2 /* RadioPlayerView.swift */,
+				4F9259C02E0AEFFC002140D4 /* FavoriteView.swift */,
+				4F9259C32E0AF02C002140D4 /* ChatView.swift */,
+				4F9259C52E0AF040002140D4 /* ProfileView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F8BFE502C4966B30056F215 /* Radio_CityApp.swift in Sources */,
+				4F9259C62E0AF040002140D4 /* ProfileView.swift in Sources */,
+				4F9259BC2E0AEE40002140D4 /* MainTabbedView.swift in Sources */,
+				4F9259C12E0AEFFD002140D4 /* FavoriteView.swift in Sources */,
 				4FECBD5C2DFF3E400046C9E2 /* RadioPlayerView.swift in Sources */,
+				4F9259C42E0AF02C002140D4 /* ChatView.swift in Sources */,
+				4F9259BF2E0AEEFF002140D4 /* SideMenu.swift in Sources */,
+				4F9259BA2E0AE376002140D4 /* SideMenuView.swift in Sources */,
 				4F7E928A2DFF52DF00B7889A /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
